@@ -1,8 +1,8 @@
 import cpp
 
 from 
-    MacroInvocation fun
+    Macro fun
 where 
-    fun.getMacroName().regexpMatch("ntoh(l|ll|s)")
+    fun.getName().regexpMatch("ntoh(l|ll|s)")
 select 
-    fun.getExpr()
+    fun
