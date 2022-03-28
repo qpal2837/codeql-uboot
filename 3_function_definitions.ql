@@ -5,4 +5,4 @@ from
 where 
     fun.getName()="strlen"
 select 
-    fun,"fun"
+    fun,"a function named strlen"
