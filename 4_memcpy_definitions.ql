@@ -2,8 +2,8 @@
 import cpp
 
 from 
-    MacroInvocation fun
+    Function fun
 where 
-    fun.getMacroName().regexpMatch("ntoh(l|ll|s)")
+    fun.getName()="memcpy" 
 select 
     fun,"a function named memcpy"
