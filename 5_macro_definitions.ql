@@ -5,4 +5,4 @@ from
 where 
     fun.getMacroName().regexpMatch("ntoh(l|ll|s)")
 select 
-    fun,"a function named memcpy"
+    fun.getExpr()
